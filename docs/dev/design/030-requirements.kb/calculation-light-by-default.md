@@ -1,7 +1,7 @@
 ---
 label: R.CALC-LIGHT
 why:
-  - ../020-goals.kb/dis.md
+  - ../020-goals.kb/discuss-gr-cosmology-and-qm.md
 ---
 
 Start every musing calculation-light; strive for conclusions with

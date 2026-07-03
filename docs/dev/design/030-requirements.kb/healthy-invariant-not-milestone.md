@@ -1,7 +1,7 @@
 ---
 label: R.SYS-HEALTHY
 why:
-  - ../020-goals.kb/sys.md
+  - ../020-goals.kb/develop-rigorous-llm-discussion-system.md
 ---
 
 G.SYS is *healthy*, never *achieved* -- an invariant maintained under

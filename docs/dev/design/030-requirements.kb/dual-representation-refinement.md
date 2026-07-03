@@ -1,7 +1,7 @@
 ---
 label: R.DUAL-REP
 why:
-  - ../020-goals.kb/sys.md
+  - ../020-goals.kb/develop-rigorous-llm-discussion-system.md
 ---
 
 A conventional-and-definitely-correct implementation, plus an

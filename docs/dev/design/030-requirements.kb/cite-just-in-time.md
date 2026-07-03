@@ -1,8 +1,8 @@
 ---
 label: R.CITE-JIT
 why:
-  - ../020-goals.kb/dis.md
-  - ../020-goals.kb/corpus.md
+  - ../020-goals.kb/discuss-gr-cosmology-and-qm.md
+  - ../020-goals.kb/produce-settled-knowledge-corpus.md
 ---
 
 Cite where it pays -- where we want to later revisit the full details,

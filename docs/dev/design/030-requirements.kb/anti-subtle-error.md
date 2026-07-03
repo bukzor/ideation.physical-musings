@@ -1,7 +1,7 @@
 ---
 label: R.ANTI-SUBTLE-ERROR
 why:
-  - ../020-goals.kb/sys.md
+  - ../020-goals.kb/develop-rigorous-llm-discussion-system.md
 ratified: 2026-07-03
 ---
 

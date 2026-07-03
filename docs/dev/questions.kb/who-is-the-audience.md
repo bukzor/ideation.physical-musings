@@ -1,6 +1,6 @@
 ---
 label: Q.AUDIENCE
-resolved: ../claims.kb/public-audience.md
+resolved: ../claims.kb/repo-is-public-no-privacy-concern.md
 ---
 
 Does anyone else ever read the outputs? Resolved (via `Q.PRIVACY`):

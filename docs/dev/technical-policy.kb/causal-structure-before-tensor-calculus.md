@@ -2,7 +2,7 @@
 label: TP.CAUSAL-FIRST
 force: should
 why:
-  - ../design/030-requirements.kb/calc-light.md
+  - ../design/030-requirements.kb/calculation-light-by-default.md
 ---
 
 For GR/cosmology musings, reach for causal/conformal structure

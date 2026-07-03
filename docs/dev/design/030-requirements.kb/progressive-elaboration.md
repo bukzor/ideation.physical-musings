@@ -1,8 +1,8 @@
 ---
 label: R.PROG-ELAB
 why:
-  - ../020-goals.kb/sys.md
-  - ../020-goals.kb/joy.md
+  - ../020-goals.kb/develop-rigorous-llm-discussion-system.md
+  - ../020-goals.kb/preserve-speed-of-thought-enjoyment.md
 ---
 
 Leave a claim, proof, or representation as a bare assertion until

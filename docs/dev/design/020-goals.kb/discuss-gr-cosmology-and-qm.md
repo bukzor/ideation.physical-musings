@@ -5,5 +5,5 @@ why:
 ---
 
 Discuss general relativity, cosmology, and (to a lesser degree) quantum
-physics. The primary terrain is `025-use-cases.kb/` -- the user's own
+physics. The primary terrain is `use-cases.kb/` -- the user's own
 musings -- not a general physics tutorial.

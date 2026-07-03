@@ -1,7 +1,7 @@
 ---
 label: M.ETC
 why:
-  - ../020-goals.kb/dis.md
+  - ../020-goals.kb/discuss-gr-cosmology-and-qm.md
 ---
 
 Unenumerated remainder: many more musings along comparable

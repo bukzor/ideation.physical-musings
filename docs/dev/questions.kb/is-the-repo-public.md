@@ -1,6 +1,6 @@
 ---
 label: Q.PRIVACY
-resolved: ../claims.kb/public-audience.md
+resolved: ../claims.kb/repo-is-public-no-privacy-concern.md
 ---
 
 Do cleaned transcripts get committed into this repo, and is the repo

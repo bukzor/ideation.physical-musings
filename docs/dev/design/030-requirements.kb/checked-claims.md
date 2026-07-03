@@ -1,8 +1,8 @@
 ---
 label: R.CHECKED-CLAIMS
 why:
-  - ../020-goals.kb/sys.md
-  - ../020-goals.kb/formalxp.md
+  - ../020-goals.kb/develop-rigorous-llm-discussion-system.md
+  - ../020-goals.kb/learn-lean-or-comparable-formal-system.md
 ---
 
 Claims need a machine-checkable representation. Interior semantics can

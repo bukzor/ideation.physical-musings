@@ -1,6 +1,6 @@
 ---
 label: Q.TUROK-DUP
-resolved: ../claims.kb/turok-labels.md
+resolved: ../claims.kb/turok-paper-citation-labels.md
 ---
 
 Both cosmological boundary musings were originally labeled "turok1" --

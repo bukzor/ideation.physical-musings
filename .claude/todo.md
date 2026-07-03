@@ -9,9 +9,13 @@ managed-by: Skill(llm-subtask)
       needs no tensor-calculus on-ramp; or resolve
       `Q.FORMAL-SUBSTRATE`/`Q.CAS-CAN`). One proposed goal,
       `G.INTUIT`, awaits ratify/veto.
-- [ ] [CLAUDE.rename-sweep.Task.md](../CLAUDE.rename-sweep.Task.md) --
-      finish fixing stale cross-references left by the filename rename
-      (table + verification steps in the file itself)
+- [x] Filename rename sweep: fixed. Root cause of the earlier "done but
+      not done" confusion -- the sweep had actually already landed in
+      the sole commit (`8879c47`); a later uncommitted step reverted
+      every file back to its terse name. Undone (`git mv` back to the
+      verbose names) and the stale cross-references fixed; validated
+      clean via `llm.kb-validate` (71 files, 0 errors) and a full `../`
+      path-resolution check.
 
 ## Later
 

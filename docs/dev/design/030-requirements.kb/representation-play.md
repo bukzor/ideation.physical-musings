@@ -1,8 +1,8 @@
 ---
 label: R.REP-PLAY
 why:
-  - ../020-goals.kb/sys.md
-  - ../020-goals.kb/physxp.md
+  - ../020-goals.kb/develop-rigorous-llm-discussion-system.md
+  - ../020-goals.kb/learn-the-physics-and-math-content.md
 ---
 
 Ability to play with representations of an idea or calculation --

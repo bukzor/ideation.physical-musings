@@ -1,7 +1,7 @@
 ---
 label: Q.CAS-SHOULD
 depends:
-  - cas-can.md
+  - is-cas-verification-feasible.md
 ---
 
 If CAS verification is feasible (`Q.CAS-CAN`), should we actually do it?

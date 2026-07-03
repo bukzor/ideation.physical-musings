@@ -27,12 +27,12 @@ such collaboration rigorous and durable. Public repo.
 ## Conventions
 
 - Labels map to paths: prefix = collection, name = kebab-case filename.
-  G. = design/020-goals.kb, M. = design/025-use-cases.kb,
+  G. = design/020-goals.kb, M. = design/use-cases.kb,
   R. = design/030-requirements.kb, TP. = technical-policy.kb,
   C. = claims.kb, Q. = questions.kb, S. = sources.kb. Background
   entries are unprefixed (small, environmental, not part of the
   discourse).
-  E.g. C.CAUSAL-FIRST = docs/dev/claims.kb/causal-first.md.
+  E.g. C.CAUSAL-FIRST = docs/dev/claims.kb/causal-structure-before-tensor-calculus.md.
   The `label:` frontmatter field is authoritative and grep-able. No
   separate "decisions" collection: process/scope decisions are claims
   (e.g. C.DG-DISCUSS-ONLY); binding rules for the eventual design are

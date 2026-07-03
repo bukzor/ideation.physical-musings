@@ -1,8 +1,8 @@
 ---
 label: R.PY-GROK
 why:
-  - ../020-goals.kb/physxp.md
-  - ../020-goals.kb/joy.md
+  - ../020-goals.kb/learn-the-physics-and-math-content.md
+  - ../020-goals.kb/preserve-speed-of-thought-enjoyment.md
 ---
 
 Build a python schematic twin (stubs allowed for the hard parts) where
