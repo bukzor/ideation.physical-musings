@@ -1,0 +1,35 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Open inquiries that structure investigation. The entry point
+  for collaborative knowledge-building.
+  Local extension of the Skill(llm-discourse-graph) schema: adds `label`
+  (speakable handle).
+type: object
+additionalProperties: false
+properties:
+  label:
+    description: Short speakable handle used in discussion (e.g. Q.SYS-DESIGN)
+    type: string
+  resolved:
+    description: Path to the claim that answers this question
+    type: string
+  candidate-resolutions:
+    description: Paths to claims being considered as potential answers
+    type: array
+    items:
+      type: string
+  sources:
+    description: Paths to sources where this question was raised
+    type: array
+    items:
+      type: string
+  depends:
+    description: Paths to nodes this question depends on for context
+    type: array
+    items:
+      type: string
+  tags:
+    description: Topic tags for cross-referencing
+    type: array
+    items:
+      type: string

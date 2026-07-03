@@ -1,0 +1,34 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Cross-cutting normative design rules -- means, not ends. Each policy
+  binds with a declared force (RFC 2119 requirement levels) and links
+  upward via why[] to the requirement or goal it serves. The body
+  states the rule and names the claim (by label) that grounds it --
+  no separate structured link, to avoid duplicating what the label
+  already makes grep-able.
+type: object
+additionalProperties: false
+properties:
+  label:
+    description: Short speakable handle (e.g. TP.CAUSAL-FIRST)
+    type: string
+  force:
+    description: Normative force of this policy, as RFC 2119 requirement levels.
+    default: should
+    oneOf:
+      - const: must
+        description: Non-negotiable.
+      - const: should
+        description: Strong default; deviation needs recorded justification.
+      - const: may
+        description: Preference; adopt when convenient.
+  why:
+    description: Paths to the requirement(s) or goal(s) this policy serves
+    type: array
+    items:
+      type: string
+  tags:
+    description: Topic tags for cross-referencing
+    type: array
+    items:
+      type: string

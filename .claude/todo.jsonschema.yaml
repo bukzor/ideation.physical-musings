@@ -1,0 +1,12 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+description: Strategic task breakdown (Skill(llm-subtask) Tier 3).
+type: object
+additionalProperties: false
+properties:
+  managed-by:
+    description: Which skill/tool owns this file's lifecycle
+    type: string
+  status:
+    description: Current state of this task
+    type: string
+    enum: [open, in-progress, deferred, done]

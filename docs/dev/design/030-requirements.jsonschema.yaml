@@ -1,0 +1,21 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Verifiable conditions for achieving a goal. Either a user-stated
+  desideratum or a failure mode reworded as its negation (kept explicit
+  in the body).
+type: object
+additionalProperties: false
+required:
+  - label
+properties:
+  label:
+    description: Short speakable handle (e.g. R.CHECKED-CLAIMS)
+    type: string
+  why:
+    description: Paths to the goal(s) this requirement serves
+    type: array
+    items:
+      type: string
+  ratified:
+    description: Date this requirement was ratified (ISO 8601). Absence = asserted, not yet settled.
+    type: date

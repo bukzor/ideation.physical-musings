@@ -1,0 +1,12 @@
+---
+label: G.JOY
+why:
+  - ../010-mission.kb/mission.md
+---
+
+Preserve speed-of-thought enjoyment; an anti-toil constraint with teeth,
+not just a nice-to-have. When a rigor procedure and momentum conflict,
+`R.PROG-ELAB` is the arbiter: defer the rigor, record the debt. A system
+that kills the fun stops being used, which fails every other goal.
+
+Ratified 2026-07-03.

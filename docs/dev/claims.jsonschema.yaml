@@ -1,0 +1,49 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Propositional assertions -- the atomic units of the knowledge graph.
+  Covers both observations and hypotheses. The body text states the
+  claim, its grounds, and any relevant context or caveats.
+  Local extension of the Skill(llm-discourse-graph) schema: adds `label`
+  (speakable handle) and `ratified` (settlement marker, per
+  R.SETTLE-AUDIT).
+type: object
+additionalProperties: false
+required:
+  - status
+properties:
+  status:
+    description: Epistemic standing of this claim
+    type: string
+    enum: [asserted, contested, retracted]
+  label:
+    description: Short speakable handle used in discussion (e.g. C.CAUSAL-FIRST)
+    type: string
+  ratified:
+    description: >
+      Date the user ratified this node (ISO 8601). Absence = proposed,
+      not yet settled. Grounds belong in the body text.
+    type: date
+  likelihood:
+    description: How likely this claim is to be true, 0-1 (default 1.0 — certain until told otherwise)
+    default: 1.0
+    type: number
+    minimum: 0
+    maximum: 1
+  sources:
+    description: Paths to sources providing this claim (for observational/empirical claims)
+    type: array
+    items:
+      type: string
+  date-observed:
+    description: When this was observed or collected, if empirical (ISO 8601)
+    type: date  # YAML parses ISO dates (2026-03-10) as date objects; see llm-kb schema-design
+  depends:
+    description: Paths to nodes this claim depends on for context
+    type: array
+    items:
+      type: string
+  tags:
+    description: Topic tags for cross-referencing
+    type: array
+    items:
+      type: string

@@ -1,0 +1,22 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Top-level project goals. Stable over the project lifetime; direct
+  user inputs rather than claims requiring settlement.
+type: object
+additionalProperties: false
+required:
+  - label
+properties:
+  label:
+    description: Short speakable handle (e.g. G.SYS)
+    type: string
+  why:
+    description: Paths to the mission entry this goal serves
+    type: array
+    items:
+      type: string
+  status:
+    description: Lifecycle state of this goal
+    type: string
+    enum: [active, deferred, superseded]
+    default: active

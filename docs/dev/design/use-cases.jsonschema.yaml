@@ -1,0 +1,21 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  A musing -- terrain G.DIS must be able to discuss and G.SYS must be
+  able to hold rigorously. Scope-setting only; physics substance lives
+  in a future per-musing discourse graph at repo root.
+type: object
+additionalProperties: false
+required:
+  - label
+properties:
+  label:
+    description: Short speakable handle (e.g. M.ALICE-BOB)
+    type: string
+  why:
+    description: Paths to the goal(s) this use case serves
+    type: array
+    items:
+      type: string
+  cluster:
+    description: Informal thematic grouping tag (e.g. horizon-causal, entropy)
+    type: string
