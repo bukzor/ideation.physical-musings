@@ -7,7 +7,5 @@ same way an external paper would be cited. Add a new stub only for a
 genuinely new provenance kind (e.g. a named third-party collaborator);
 don't create one per claim.
 
-A future per-musing physics discourse (repo root) gets its own
-`sources.kb/` for papers/citations (`S.TUROK1`, `S.TUROK2`, etc.) --
-that's empirical/literature provenance, a different concern from this
-collection's live-discussion provenance.
+Literature citations (S.TUROK1, etc.) belong in the per-musing
+physics discourses' own `sources.kb/` at repo root, not here.

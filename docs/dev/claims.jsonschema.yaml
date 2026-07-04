@@ -3,9 +3,8 @@ description: >
   Propositional assertions -- the atomic units of the knowledge graph.
   Covers both observations and hypotheses. The body text states the
   claim, its grounds, and any relevant context or caveats.
-  Local extension of the Skill(llm-discourse-graph) schema: adds `label`
-  (speakable handle) and `ratified` (settlement marker, per
-  R.SETTLE-AUDIT).
+  Local extension of the Skill(llm-discourse-graph) schema: adds
+  `ratified` (settlement marker, per R.SETTLE-AUDIT).
 type: object
 additionalProperties: false
 required:
@@ -15,9 +14,6 @@ properties:
     description: Epistemic standing of this claim
     type: string
     enum: [asserted, contested, retracted]
-  label:
-    description: Short speakable handle used in discussion (e.g. C.CAUSAL-FIRST)
-    type: string
   ratified:
     description: >
       Date the user ratified this node (ISO 8601). Absence = proposed,

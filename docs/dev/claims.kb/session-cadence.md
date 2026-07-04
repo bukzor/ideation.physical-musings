@@ -1,6 +1,5 @@
 ---
 status: asserted
-label: C.CADENCE
 sources:
   - ../sources.kb/user.md
 ---
@@ -8,5 +7,8 @@ sources:
 Session cadence over the last many weeks: 1-4 sessions/week, 3-12 hours
 each, highly variable -- keyed to the user's own enthusiasm and energy
 level, not a fixed schedule. Bounds tolerable re-entry toil: reload cost
-must stay a small fraction of a session or `R.ANTI-AMNESIA` loses to
-attrition. Resolves `Q.CADENCE`.
+must stay a small fraction of a session or [anti-amnesia] loses to
+attrition. Resolves [what-is-the-session-cadence].
+
+[anti-amnesia]: ../design/030-requirements.kb/anti-amnesia.md
+[what-is-the-session-cadence]: ../questions.kb/what-is-the-session-cadence.md

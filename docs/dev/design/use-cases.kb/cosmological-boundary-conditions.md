@@ -1,5 +1,4 @@
 ---
-label: M.COSMO-BC
 why:
   - ../020-goals.kb/discuss-gr-cosmology-and-qm.md
 cluster: horizon-causal

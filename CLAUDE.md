@@ -16,29 +16,38 @@ such collaboration rigorous and durable. Public repo.
 ## Scopes
 
 - `docs/dev/` -- meta scope: everything *about the system*. Design tower
-  (`design/`), cross-cutting policy (`technical-policy.kb/`), environment
-  facts (`background.kb/`), meta discourse (`claims.kb/`, `questions.kb/`,
-  `sources.kb/` -- live-discussion provenance, not literature).
-- repo root -- reserved for the physics discourse itself (goal G.CORPUS):
-  per-musing scopes with their own collections (incl. `sources.kb/`),
-  opened as musings open.
-- `.claude/` -- session workflow (todo.kb, ideas.kb); not corpus content.
+  (`design/`), cross-cutting policy (`technical-policy.kb/`),
+  environment facts (`background.kb/`), meta discourse (`claims.kb/`,
+  `questions.kb/`, `sources.kb/` -- live-discussion provenance, not
+  literature).
+- repo root -- reserved for the physics discourse itself (goal
+  G.CORPUS): per-musing scopes with their own collections (incl.
+  `sources.kb/`), opened as musings open.
+- `.claude/` -- session workflow (todo.kb, ideas.kb); not corpus
+  content.
 
 ## Conventions
 
-- Labels map to paths: prefix = collection, name = kebab-case filename.
-  G. = design/020-goals.kb, M. = design/use-cases.kb,
-  R. = design/030-requirements.kb, TP. = technical-policy.kb,
-  C. = claims.kb, Q. = questions.kb, S. = sources.kb. Background
-  entries are unprefixed (small, environmental, not part of the
-  discourse).
-  E.g. C.CAUSAL-FIRST = docs/dev/claims.kb/causal-structure-before-tensor-calculus.md.
-  The `label:` frontmatter field is authoritative and grep-able. No
-  separate "decisions" collection: process/scope decisions are claims
-  (e.g. C.DG-DISCUSS-ONLY); binding rules for the eventual design are
-  technical-policy (e.g. TP.DESIGN-FROM-SETTLED).
-- Settlement (working convention, pending Q.SETTLE-AUTHORITY): either
-  party proposes; the user ratifies. `ratified:` date in frontmatter
-  marks settlement; absence = proposed. Grounds live in the node body
-  (R.SETTLE-AUDIT). Reopening a ratified node requires something new --
-  evidence, a flaw in prior reasoning, or a clarified misunderstanding.
+- Filenames are the identifier: kebab-case, descriptive enough that `ls`
+  is itself a form of discovery. Cross-references are relative-path
+  markdown links; display text is the target's filename stem, with the
+  parent collection dir prepended only when a stem collides across
+  collections (currently the three claims.kb entries that pair with a
+  same-named technical-policy.kb counterpart:
+  causal-structure-before-tensor-calculus, design-from-settled,
+  local-conditional-claim-checking). No separate "decisions" collection:
+  process/scope decisions are claims (e.g.
+  [discourse-graph-scoped-to-discussion]); binding rules for the
+  eventual design are technical-policy (e.g.
+  [technical-policy.kb/design-from-settled]).
+- Settlement ([settlement-authority-convention]): either party proposes;
+  the user ratifies. `ratified:` date in frontmatter marks settlement;
+  absence = proposed. Grounds live in the node body
+  ([settlement-audit-trail]). Reopening a ratified node requires
+  something new -- evidence, a flaw in prior reasoning, or a clarified
+  misunderstanding.
+
+[discourse-graph-scoped-to-discussion]: docs/dev/claims.kb/discourse-graph-scoped-to-discussion.md
+[technical-policy.kb/design-from-settled]: docs/dev/technical-policy.kb/design-from-settled.md
+[settlement-authority-convention]: docs/dev/claims.kb/settlement-authority-convention.md
+[settlement-audit-trail]: docs/dev/design/030-requirements.kb/settlement-audit-trail.md

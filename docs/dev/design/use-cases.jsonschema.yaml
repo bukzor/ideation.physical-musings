@@ -5,12 +5,7 @@ description: >
   in a future per-musing discourse graph at repo root.
 type: object
 additionalProperties: false
-required:
-  - label
 properties:
-  label:
-    description: Short speakable handle (e.g. M.ALICE-BOB)
-    type: string
   why:
     description: Paths to the goal(s) this use case serves
     type: array

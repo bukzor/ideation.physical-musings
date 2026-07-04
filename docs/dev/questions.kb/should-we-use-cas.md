@@ -1,8 +1,10 @@
 ---
-label: Q.CAS-SHOULD
 depends:
   - is-cas-verification-feasible.md
 ---
 
-If CAS verification is feasible (`Q.CAS-CAN`), should we actually do it?
-Deliberately held separate from feasibility -- decided JIT either way.
+If CAS verification is feasible ([is-cas-verification-feasible]), should
+we actually do it? Deliberately held separate from feasibility --
+decided JIT either way.
+
+[is-cas-verification-feasible]: is-cas-verification-feasible.md

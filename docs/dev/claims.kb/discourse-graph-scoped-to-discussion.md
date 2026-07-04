@@ -1,6 +1,5 @@
 ---
 status: asserted
-label: C.DG-DISCUSS-ONLY
 sources:
   - ../sources.kb/user.md
 ---

@@ -1,8 +1,8 @@
 ---
-label: Q.SETTLE-AUTHORITY
+resolved: ../claims.kb/settlement-authority-convention.md
 ---
 
 Who has authority to ratify a settled node, and how is it recorded?
-Working default in effect (root `CLAUDE.md`): either party proposes, the
-user ratifies; grounds live in the node body, `ratified:` date marks it.
-Not yet explicitly confirmed by the user as the permanent rule.
+Resolved: either party proposes, the user ratifies; grounds live in the
+node body, `ratified:` date marks it -- confirmed as the permanent
+rule.

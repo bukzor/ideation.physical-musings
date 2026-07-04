@@ -1,5 +1,4 @@
 ---
-label: G.WF
 why:
   - ../010-mission.kb/mission.md
 ---

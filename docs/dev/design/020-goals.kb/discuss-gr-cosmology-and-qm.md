@@ -1,5 +1,4 @@
 ---
-label: G.DIS
 why:
   - ../010-mission.kb/mission.md
 ---

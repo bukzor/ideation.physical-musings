@@ -1,5 +1,4 @@
 ---
-label: M.ETC
 why:
   - ../020-goals.kb/discuss-gr-cosmology-and-qm.md
 ---

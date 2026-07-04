@@ -4,12 +4,7 @@ description: >
   user inputs rather than claims requiring settlement.
 type: object
 additionalProperties: false
-required:
-  - label
 properties:
-  label:
-    description: Short speakable handle (e.g. G.SYS)
-    type: string
   why:
     description: Paths to the mission entry this goal serves
     type: array
@@ -20,3 +15,9 @@ properties:
     type: string
     enum: [active, deferred, superseded]
     default: active
+  ratified:
+    description: >
+      Date the user accepted this goal (ISO 8601). Only meaningful for
+      assistant-proposed goals; user-stated goals are direct inputs and
+      carry no mark.
+    type: date

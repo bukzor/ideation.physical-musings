@@ -1,6 +1,5 @@
 ---
 status: asserted
-label: C.REFUTE-IS-WIN
 sources:
   - ../sources.kb/assistant.md
 ---

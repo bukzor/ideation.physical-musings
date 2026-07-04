@@ -4,16 +4,12 @@ description: >
   or a live discussion participant. Reusable across multiple
   claims/deductions: a `user`/`assistant` source is one stub node cited
   from every claim it originates.
-  Local extension of the Skill(llm-discourse-graph) schema: adds `label`.
 type: object
 additionalProperties: false
 required:
   - kind
   - title
 properties:
-  label:
-    description: Short speakable handle (e.g. S.USER)
-    type: string
   kind:
     description: >
       Type of source material. `user`/`assistant` cover claims arising

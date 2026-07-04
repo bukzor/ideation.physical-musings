@@ -1,5 +1,4 @@
 ---
-label: G.PROOFXP
 why:
   - ../010-mission.kb/mission.md
 ---

@@ -1,5 +1,4 @@
 ---
-label: R.CITE-JIT
 why:
   - ../020-goals.kb/discuss-gr-cosmology-and-qm.md
   - ../020-goals.kb/produce-settled-knowledge-corpus.md

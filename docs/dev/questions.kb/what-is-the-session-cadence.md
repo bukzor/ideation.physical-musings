@@ -1,5 +1,4 @@
 ---
-label: Q.CADENCE
 resolved: ../claims.kb/session-cadence.md
 ---
 

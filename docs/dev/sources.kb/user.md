@@ -1,5 +1,4 @@
 ---
-label: S.USER
 kind: user
 title: User (live discussion participant)
 ---

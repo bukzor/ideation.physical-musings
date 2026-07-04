@@ -1,5 +1,4 @@
 ---
-label: M.ENTROPY-LIFE
 why:
   - ../020-goals.kb/discuss-gr-cosmology-and-qm.md
 cluster: entropy-information

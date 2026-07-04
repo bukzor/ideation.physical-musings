@@ -5,12 +5,7 @@ description: >
   in the body).
 type: object
 additionalProperties: false
-required:
-  - label
 properties:
-  label:
-    description: Short speakable handle (e.g. R.CHECKED-CLAIMS)
-    type: string
   why:
     description: Paths to the goal(s) this requirement serves
     type: array
