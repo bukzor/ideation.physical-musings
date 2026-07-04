@@ -1,5 +1,18 @@
 ---
 managed-by: Skill(llm-subtask)
+cost-benefit-sweh:
+  timebox:
+    '@value': 0.5
+    rationale: 'residual is a decision: pick the concrete next action (pilot M.ENTROPY-ONE, or resolve Q.FORMAL-SUBSTRATE/Q.CAS-CAN) + ratify/veto G.INTUIT'
+    confidence: unsure
+  benefit-2w:
+    '@value': 0.5
+    rationale: unblocks the project's direction
+    confidence: tentative
+  cost-of-delay-2w:
+    '@value': 0.3
+    rationale: context from the 2026-07-03 goals discussion is hot; decays over weeks
+    confidence: tentative
 ---
 
 - [~] Goals discussion (2026-07-03): shared understanding reached and
@@ -7,8 +20,7 @@ managed-by: Skill(llm-subtask)
       Remaining from the original ask: "choose what to do" -- pick a
       concrete next action (pilot a musing, e.g. M.ENTROPY-ONE which
       needs no tensor-calculus on-ramp; or resolve
-      `Q.FORMAL-SUBSTRATE`/`Q.CAS-CAN`). One proposed goal,
-      `G.INTUIT`, awaits ratify/veto.
+      `Q.FORMAL-SUBSTRATE`/`Q.CAS-CAN`). `G.INTUIT` ratified 2026-07-03.
 - [x] Filename rename sweep: fixed. Root cause of the earlier "done but
       not done" confusion -- the sweep had actually already landed in
       the sole commit (`8879c47`); a later uncommitted step reverted

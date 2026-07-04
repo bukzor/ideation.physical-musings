@@ -1,6 +1,19 @@
 ---
 managed-by: Skill(llm-subtask)
 status: deferred
+cost-benefit-sweh:
+  timebox:
+    '@value': 4
+    rationale: fetch export + shortlist + tag/clean/annotate; bounded first pass, structure TBD
+    confidence: tentative
+  benefit-2w:
+    '@value': 0.5
+    rationale: explicitly deferred from the G.SYS discussion; value materializes when physics work resumes
+    confidence: tentative
+  cost-of-delay-2w:
+    '@value': 0.1
+    rationale: claude.ai history persists; low decay
+    confidence: unsure
 ---
 
 # Transcript drawdown: fetch, select, clean prior physics discussions
